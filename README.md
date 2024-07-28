@@ -43,3 +43,6 @@ If you already use it, feel free to update with
 cd /opt/RPi-deyesun600-to-mqtttls
 sudo git pull origin main
 ```
+
+##Note
+The deye inverter provides information not in realtime. Its provides only all 5 minutes new information on webseite or over interface. So its not really needed, to push new information in seconds rotation to broker
