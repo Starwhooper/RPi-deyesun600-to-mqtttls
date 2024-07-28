@@ -1,0 +1,23 @@
+{
+  "calculationrefresh": 5,
+  "inverter": {
+    "address": "",
+    "site": "status.html",
+    "user": "",
+    "pw": "",
+    "offset": 0,
+	"retry":5
+  },
+  "mqtt":{
+	"qos": 0,
+	"broker":{
+		"user":"",
+	    "pw":"",
+		"url":"",
+		"port":8883
+	}
+  },	  
+  "electricitymeter": {
+    "since": 0
+  }
+}
