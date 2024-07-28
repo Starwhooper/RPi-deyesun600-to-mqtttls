@@ -32,8 +32,9 @@ sudo crontab -e
 ```
 insert line:
 ```
-@reboot /opt/RPi-deyesun600-to-mqtttls/doit.py
+@reboot sleep 120 && /opt/RPi-deyesun600-to-mqtttls/doit.py
 ```
+*My raspberry zero needs 120 seconds to boot and connect to lan. Feel free to check out shorter times.*
 
 ## Update
 If you already use it, feel free to update with
