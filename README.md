@@ -1,5 +1,6 @@
 # RPi-deyesun600-to-mqtttls
 poor script to provice information from deye sun 600 to mqtt broker (include tls support) as exampe hinvemq
+![assigment](assignment.jpg)
 
 ## Installation
 install all needed packages to prepare the software environtent of your Raspberry Pi:
